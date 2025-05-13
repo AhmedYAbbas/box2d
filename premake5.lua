@@ -8,14 +8,15 @@ project "box2d"
 	files
 	{
 		"src/**.h",
-		"src/**.cpp",
+		"src/**.c",
 
 		"inlcude/**.h"
 	}
 
     includedirs
     {
-        "include"
+        "include",
+        "src"
     }
 
 	filter "system:windows"
